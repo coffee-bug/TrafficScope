@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "TrafficScope Site Helper",
+  "version": "1.0.0",
+  "description": "Tells TrafficScope which website each request belongs to. Hostnames only — never URLs, paths or query strings.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2FfEqpdFgfRz9FrswtFDKbtI3in1mk8QW7VfnH73I3Dgagk8bh5giqM3P8LqSUB1MqiT1lo27rrW0a0kZa4Xo6/hBuqsh+VUZayC4p4GFpZ1nrQE9w1Q/3H+Q78h+RI2zwEYFtkoZ8zzWh+uYV6NgMfT1e/9ZBMnW6H/e+A83YMqKN5rsHPvIkvLMUasGE5cVh3vBH5MUHlnFEFL5ed8T/JwHYunbf2zRSUkXCQxO69/UGxmjBPHNKdDi/scr0F3HlKlciQfFgcXxciSTob9Qsvtzw4EDY+9BQ1eUy7jjToqe0JXpkYn/umNwgdXfyP1GBTS46eFo9ofoMo5CEMfEQIDAQAB",
+  "permissions": [
+    "webRequest",
+    "nativeMessaging"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

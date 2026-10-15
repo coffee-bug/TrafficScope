@@ -1,0 +1,9 @@
+{
+  "name": "com.trafficscope.site",
+  "description": "TrafficScope site attribution bridge (browser extension -> local app)",
+  "path": "TrafficScopeHost.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://phdnbcbpkhpbodccdkncbpkfdlmakmcf/"
+  ]
+}

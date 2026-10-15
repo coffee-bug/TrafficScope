@@ -1,0 +1,4 @@
+// 程序图标：资源管理器 / 任务管理器 / 任务计划程序里显示的那一枚。
+// 图标内容与 ui/AppIcon.h 现画的窗口/托盘图标同源（↑橙 ↓绿），
+// 只是它随 exe 编译进去，不能跟着暗/浅主题变色。
+IDI_ICON1 ICON DISCARDABLE "trafficscope.ico"
